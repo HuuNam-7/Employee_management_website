@@ -1,0 +1,290 @@
+body {
+    color: #000;
+    overflow-x: hidden;
+    height: 100%;
+    background-repeat: no-repeat;
+    /* background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%); */
+    /* background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%); */
+    background: #304352;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #d7d2cc, #304352);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #d7d2cc, #304352); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     
+}
+
+.card0 {
+    box-shadow: 0px 4px 8px 0px #000000;
+    border-radius: 5px;
+    /* background-color: rgb(232, 246, 255); */
+    /* background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%); */
+    /* background-image: linear-gradient(to top, #4fb576 0%, #44c489 30%, #28a9ae 46%, #28a2b7 59%, #4c7788 71%, #6c4f63 86%, #432c39 100%); */
+    background: #abbaab;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #ffffff, #abbaab);  
+    background: linear-gradient(to left, #ffffff, #abbaab); 
+    
+}
+
+.card2 {
+    background-color: transparent;
+}
+
+.logo {
+    width: 150px;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 35px
+}
+
+.image {
+
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.border-line {
+    border-right: 2px solid #EEEEEE
+}
+
+
+/* .line {
+    height: 1px;
+    width: 45%;
+    background-color: #E0E0E0;
+    margin-top: 10px
+} */
+
+.or {
+    width: 10%;
+    font-weight: bold
+}
+
+.login-form {
+    
+}
+
+.text-sm {
+    font-size: 14px !important
+}
+
+.heading-log {
+    font-size: 28px;
+    transform: uppercase;
+    
+}
+
+input[type="email"], input[type="password"]{ 
+    /* padding: 20px 10px;  */
+    line-height: 100%; 
+    height: 50px;
+    transition: 0.6s;
+    border-bottom: 1px solid #CCC;
+    border-bottom: 1px solid #28a2a2;
+    border-radius: 5px;
+}
+
+.login-form .form-icon{
+	text-align: center;
+}
+
+.login-form .login-logo {
+
+}
+
+
+/*Hidden for password*/
+.field-icon {
+    float: right;
+    position: relative;
+    z-index: 2;
+    margin-left: -25px;
+}
+
+
+
+
+a {
+    color: inherit;
+    cursor: pointer
+}
+
+.btn-blue {
+    background-color: #1A237E;
+    width: 150px;
+    color: #fff;
+    border-radius: 2px
+}
+
+.btn-blue:hover {
+    background-color: #000;
+    cursor: pointer
+}
+
+.bg-blue {
+    color: #fff;
+    background-color: #1A237E
+}
+
+.content-login {
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(255, 77, 77);
+    
+    --x-offset: -0.0625em;
+    --y-offset: 0.0625em;
+    --stroke: 0.025em;
+    --background-color: white;
+    --stroke-color: lightblue;
+    
+    text-shadow: 
+      
+      var(--x-offset)
+      var(--y-offset)
+      0px
+      var(--background-color), 
+      
+      calc( var(--x-offset) - var(--stroke) )
+      calc( var(--y-offset) + var(--stroke) )
+      0px
+      var(--stroke-color);
+    
+}
+
+@supports ( text-shadow: 1px 1px 1px 1px black ) {
+    h1 {
+      text-shadow:
+        var(--x-offset)
+        var(--y-offset)
+        0px
+        0px
+        var(--background-color), 
+        
+        var(--x-offset) 
+        var(--y-offset)
+        var(--stroke)
+        0px
+        var(--stroke-color);
+      
+    }
+}
+
+.content-label {
+    font-size: 20px;
+    font-weight: 409;
+}
+
+.social-icons{
+
+}
+
+.social-icons a{
+    font-size: 23px;
+    margin: 0 5px;
+    color: #000000;
+    border: 1px solid;
+    border-radius: 50%;
+    width: 45px;
+    display: inline-block;
+    height: 45px;
+    text-align: center;
+    background-color: #fff;
+    line-height: 45px;
+}
+
+.social-icons a:hover{
+    text-decoration: none;
+    opacity: 0.6;
+}
+
+
+ 
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Bootstrap 4 breakpoints
+*/
+/* Small devices (landscape phones, 544px and up) */
+@media screen and (max-width: 575px) {
+    .border-line {
+        border-right: none;
+    }
+    
+    .logo {
+        margin-left: 0px
+    }
+
+    .image {
+
+    }
+
+    .card2 {
+        border-top: 1px solid #EEEEEE !important;
+        margin: 0px 15px
+    }
+
+    .content-login {
+        font-size: 5px;
+    }
+
+    .form-icon{
+        width: 70px;
+        height: 70px;
+        font-size: 30px;
+        line-height: 70px;
+    }
+
+    .bgr1 {
+        display: none;
+    }
+}
+@media screen and (max-width: 768px) {  
+    .content-login {
+        font-size: 5px;
+    }
+    .border-line {
+        border-right: none;
+    }
+    .bgr1 {
+        display: none;
+    }
+    .bgr1 {
+        display: none;
+    }
+}
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media screen and (max-width: 992px) {  
+    .border-line {
+        border-right: none;
+    }
+    .content-login {
+        font-size: 10px;
+    }
+    .bgr1 {
+        display: none;
+    }
+    input[type="email"], input[type="password"] {
+        margin: auto !important;
+    }
+
+    .card2 {
+        margin-top: 0 !important;
+        /* margin-bottom: 3px !important; */
+    }
+    
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media screen and (max-width: 1200px) { 
+    .content-login {
+        font-size: 30px;
+    }
+}
+
+
+
+
+
+  
+
