@@ -13,4 +13,5 @@ password: 123456
 
 employee account:
 username: thuylinh
-password: thuylinh08
+password: thuylinh08# Employee_management_website
+# Employee_management_website
